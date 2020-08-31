@@ -20,6 +20,10 @@ function loadFacebookVideo(){
   FB.XFBML.parse(player[0]);
 }
 
+function toggleCalendar(){
+  jQuery("#schedule-container").toggleClass('hide')
+}
+
 jQuery(window).ready(function(){
   loadFacebookVideo();
 })
