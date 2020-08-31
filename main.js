@@ -5,7 +5,7 @@ function loadYouTubeVideo(){
     return false;
   }
   playerType = 'youtube';
-  var ele = jQuery('<iframe width="100%" height="495" src="https://www.youtube.com/embed/_s3GWnxA6Vs?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+  var ele = jQuery('<iframe width="100%" height="543" src="https://www.youtube.com/embed/_s3GWnxA6Vs?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
   jQuery('#player').html('').append(ele);
 }
 
