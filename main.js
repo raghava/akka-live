@@ -25,5 +25,5 @@ function toggleCalendar(){
 }
 
 jQuery(window).ready(function(){
-  loadFacebookVideo();
+  loadYouTubeVideo();
 })
